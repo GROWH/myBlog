@@ -2,6 +2,7 @@ module.exports = {
   "title": "赵欢的博客",
   "description": "记录生活的点点滴滴...",
   "dest": "dist",   //该属性表示的是项目打包以后文件生成的目录   
+  "base": "/myBlog/",   //该属性表示的是项目打包以后文件生成的目录   
   "head": [   //该属性表示的是 html 文档的 head 标签中需要额外插入的其它标签
     [
       "link",
